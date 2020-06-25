@@ -1,0 +1,23 @@
+.play-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.play-columns > .play-column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.play-columns > .play-column > .number img {
+    width: 50px;
+}
+
+.play-columns > .play-column > .play-icon img {
+    width: 160px;
+    padding: 20px;
+}
